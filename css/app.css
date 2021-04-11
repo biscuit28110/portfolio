@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+
+#page-top{
+
+
+  background-image:url(/assets/img/walpapper.jpg);
+}
+
+
+/*--- Centrer automatiquement un objet ---*/
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- Homogénéité de la navbar mobile ---*/
+
+
+.bg-dark{
+  background-color: #444444!important;
+}
+
+.dropdown-menu{
+  background-color: #444444;
+  border:none;
+  text-align: center;
+}
+
+.dropdown-item{
+  color: #ffffff80;
+}
+
+/**--- VAGUES --**/
+
+.vagues{
+    min-width: 100%;
+    margin-bottom: -1px;
+}
+
+/**-- Soulignement des textes --**/
+
+.souligne{
+  text-decoration: underline;
+}
+
+/**-- Pas de padding left ni right --**/
+
+.no-padding-lr {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/**-- Pas de padding complet --**/
+
+.no-padding {
+  padding: 0;
+}
+
+/**-- Box shadow sur les cards --**/
+
+.bs-card {
+  box-shadow: 0 0 12px rgba(0,0,0 ,0.2);
+}
+
+.c-black, .c-black a:link{
+  color: black!important;
+}
+
+.padding-top-10{
+  padding-top: 10px;
+}
+
+.padding-top-20{
+  padding-top: 20px;
+}
+
+
+.titre_sousvague{
+  font-size: 40px;
+  margin-bottom: 2vh;
+  color: black;
+  font-weight: lighter;
+}
+
+.lien_mentions {
+  color: #00afee!important;
+}
